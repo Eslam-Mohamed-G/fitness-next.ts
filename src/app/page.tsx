@@ -1,3 +1,6 @@
+import React from 'react';
+import Slider from "react-slick";
+import Responsive from './_Components/Slider';
 export default function Home() {
   return (
     <div className="min-h-screen px-4 gap-16 lg:ps-20 font-[family-name:var(--font-geist-sans)]">
@@ -24,6 +27,7 @@ export default function Home() {
           <img src="/images/banner.png" alt="banner" className='w-full h-[65vh] lg:h-[90vh] -z-10' />
         </div>
       </div>
+      <Responsive/>
     </div>
   );
 }
