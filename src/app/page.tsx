@@ -27,7 +27,7 @@ export default function Home() {
           <img src="/images/banner.png" alt="banner" className='w-full h-[65vh] lg:h-[90vh] -z-10' />
         </div>
       </div>
-      <Responsive/>
+      {/* <Responsive/> */}
     </div>
   );
 }
